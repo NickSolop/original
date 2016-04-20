@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Jura&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,cyrillic);
+@media screen and (max-width: 1100px) {
+	img{
+		display: none;
+	}
+.iii4 {
+		display: none;
+	}
+.iii3{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+.iii2 {
+		display: none;
+	}
+.iii1{
+		display: none;
+	}
+}
+
+.header {
+    display: block;
+    height: 100px;
+    background: #F8F9FB;    
+   position: relative;
+    width: 100%;
+	
+}
+.main-page {
+	display: block;
+	width: 100%;
+	height: 500px;
+	background: #dedbdb ;
+	
+}
+.map-form {
+    position: absolute;
+	top: 140px;
+    right: 100px;
+    width: 320px;
+    height: 320px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #ccc;       
+}
+.map-label {
+     margin-top: 20px;
+    position: relative;
+    display: block;
+    font-weight: 100;
+    font-size: 24pt;
+    font-family:  'Noto Sans', sans-serif; 
+}
+input {
+     margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+}
+.map-sub {
+   width: 290px;
+    height: 47px;
+    background: #53CDDD;
+    text-transform: uppercase;
+	border: none;
+}
+.map-sub:hover {
+    color: black; 
+    -moz-border-radius: 10px; 
+ -webkit-border-radius: 10px;
+ -khtml-border-radius:10px; 
+ border-radius: 10px;
+}
+.map-form:hover {
+    border: 2px solid black;  
+}
+.H {
+	
+	font-size: 60px;
+	font-family: 'Jura', sans-serif;
+	color:red;
+}
+
+.E {
+	
+	font-size: 60px;
+	font-family: 'Jura', sans-serif;
+	color: aqua;
+}
+
+.L {
+	
+	font-size: 60px;
+	font-family: 'Jura', sans-serif;
+	color: green;
+}
+img {
+	padding-top: 25px;
+	padding-left: 80px;
+	width: 800px;
+	height: 350px;
+	
+}
+.main-table {
+	display: block;
+	width: 100%;
+	height: 500px;
+	background:  #dedbdb;
+}
+table {
+	font-family: "Noto Sans", sans-serif;
+	margin: 80px auto;
+	width: 1000px;
+	height: 400px;
+	text-align: center;
+}
+td {
+	border: 2px solid black;
+}
+td:hover {
+	border: 2px solid red;
+}
+
